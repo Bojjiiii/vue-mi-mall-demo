@@ -6,7 +6,6 @@
     </div>
 </template>
 <style scoped>
-
 </style>
 <script>
 import NavHeader from '../components/NavHeader.vue'
