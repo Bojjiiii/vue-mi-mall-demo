@@ -5,7 +5,7 @@
 </template>
 
 <script>
-// import storage from "./storage/index.js";
+import storage from "./storage/index.js";
 export default {
   name: "App",
   components: {},
@@ -13,7 +13,7 @@ export default {
     // storage.setItem("a", 1);
     // storage.setItem('user',{b:1})
     // storage.setItem('abc',{a:1},'user')
-    // storage.clear('mall')
+    storage.clear('mall')
   },
 };
 </script>
