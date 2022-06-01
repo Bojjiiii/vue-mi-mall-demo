@@ -1,6 +1,7 @@
 <template>
     <div>
-        <nav-header></nav-header>
+        <order-header></order-header>
+        Order
         <router-view></router-view>
         <nav-footer></nav-footer>
     </div>
@@ -8,12 +9,12 @@
 <style scoped>
 </style>
 <script>
-import NavHeader from '../components/NavHeader.vue'
+import OrderHeader from '../components/OrderHeader.vue'
 import NavFooter from '../components/NavFooter.vue'
 export default {
     name: 'order',
     components: {
-        NavHeader,
+        OrderHeader,
         NavFooter,
     },
     mounted(){

@@ -1,6 +1,7 @@
 <template>
 <!-- 承载首页、产品栈、商品详情 -->
     <div>
+        !!home Page!!
         <nav-header></nav-header>
         <router-view></router-view>
         <nav-footer></nav-footer>
