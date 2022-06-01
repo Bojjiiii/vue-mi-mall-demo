@@ -1,4 +1,5 @@
 <template>
+<!-- 承载首页、产品栈、商品详情 -->
     <div>
         <nav-header></nav-header>
         <router-view></router-view>
